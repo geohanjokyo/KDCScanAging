@@ -81,7 +81,7 @@ class ScanAging(unittest.TestCase):
                 driver.find_element(By.XPATH,
                                     "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.TextView[3]").click()
 
-            # sleep(delay)
+            sleep(delay)
         #결과값 데이터 프레임 scv파일로 저장
         now = datetime.datetime.now()
         now_date = now.strftime("%Y%m%d")
